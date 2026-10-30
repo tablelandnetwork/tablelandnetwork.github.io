@@ -1,6 +1,6 @@
 # Tableland Rigs (static)
 
-A self-contained static archive of the [Tableland Rigs](https://opensea.io/collection/tableland-rigs/) NFT collection, served with GitHub Pages at https://tablelandnetwork.github.io/rigs-static/.
+A self-contained static archive of the [Tableland Rigs](https://opensea.io/collection/tableland-rigs/) NFT collection, served with GitHub Pages at https://tablelandnetwork.github.io/.
 
 ## Layout
 
@@ -18,8 +18,8 @@ A self-contained static archive of the [Tableland Rigs](https://opensea.io/colle
 The Rigs contract (`0x8EAa9AE1Ac89B1c8C8a8104D08C045f78Aadb42D` on Ethereum) builds `tokenURI` by joining URI template parts with the token ID. To serve metadata from this site, the owner calls:
 
 ```
-setURITemplate(["https://tablelandnetwork.github.io/rigs-static/metadata/", ".json"])
-setContractURI("https://tablelandnetwork.github.io/rigs-static/contract.json")
+setURITemplate(["https://tablelandnetwork.github.io/metadata/", ".json"])
+setContractURI("https://tablelandnetwork.github.io/contract.json")
 ```
 
 ## How it was built
